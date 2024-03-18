@@ -1,0 +1,42 @@
+    body{
+            font-family: arial,sans-serif;
+            display: flex;
+            align-items: center;
+            margin: 0;
+        
+        }
+        .container{
+            width: 300px;
+            padding: 20px;
+            margin-left:340px;
+            border: 1px solid black;
+            
+        }
+        
+        button{
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+        
+        button:hover{
+            background-color: rgb(14, 177, 41);
+        }
+        @media screen and  (max-width:1309) {
+           .container{
+            text-align:center; 
+           }
+            
+        }
+
+        @media screen and  (max-width:1024) {
+            .container{
+             margin-left:auto;
+             text-align:center; 
+             height: 1000px;
+             width: 500px;
+            }
+             
+         }
+    
+   
